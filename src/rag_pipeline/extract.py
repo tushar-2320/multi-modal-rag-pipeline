@@ -27,15 +27,16 @@ def extract_text_and_images_from_pdf() -> tuple:
 
     text_embeddings = convert_text_to_embeddings(texts)
     image_embeddings = convert_image_to_embeddings(images)
-    return text_embeddings, image_embeddings
+    return texts, text_embeddings, image_embeddings
 
 
-def store_embeddings(text_embeddings: ndarray, image_embeddings: list):
+def store_embeddings(texts: list, text_embeddings: ndarray,
+                     image_embeddings: list):
     client = chromadb.PersistentClient(VECTOR_DB_DIR)
     collection = client.get_or_create_collection("documents")
     for i, embedding in enumerate(text_embeddings):
         collection.upsert(ids=[f"Text {i}"],
-                          documents=[f"Text {i}"],
+                          documents=[texts[i]],
                           embeddings=[embedding.tolist()],
                           metadatas=[{
                               "type": "text",
