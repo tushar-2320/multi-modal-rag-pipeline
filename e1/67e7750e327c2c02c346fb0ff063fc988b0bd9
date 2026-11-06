@@ -1,0 +1,48 @@
+README.md
+  s_caec41d29ce5a1::t_278eb1a16099fe 47,55-90
+  s_caec41d29ce5a1::t_e90c1a5609007a 1-46,48-54
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "autter_version": "3.0.0",
+  "base_commit_sha": "e167e7750e327c2c02c346fb0ff063fc988b0bd9",
+  "branch": "agents/update-readme-file",
+  "prompts": {
+    "s_caec41d29ce5a1": {
+      "agent_id": {
+        "tool": "github-copilot-cli",
+        "id": "9505d778-c6e6-4c91-b939-fc137014c58c",
+        "model": "github-copilot-cli/unknown-model"
+      },
+      "human_author": "tushar-2320 <tk1444272@gmail.com>",
+      "total_additions": 92,
+      "total_deletions": 2,
+      "accepted_lines": 90,
+      "overriden_lines": 0
+    }
+  },
+  "sessions": {
+    "s_caec41d29ce5a1": {
+      "agent_id": {
+        "tool": "github-copilot-cli",
+        "id": "9505d778-c6e6-4c91-b939-fc137014c58c",
+        "model": "github-copilot-cli/unknown-model"
+      },
+      "human_author": "tushar-2320 <tk1444272@gmail.com>",
+      "stats": {
+        "total_additions": 92,
+        "total_deletions": 2,
+        "accepted_lines": 90,
+        "overriden_lines": 0,
+        "files": {
+          "README.md": {
+            "total_additions": 92,
+            "total_deletions": 2,
+            "accepted_lines": 90,
+            "overriden_lines": 0
+          }
+        }
+      }
+    }
+  }
+}
