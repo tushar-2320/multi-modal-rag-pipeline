@@ -1,0 +1,48 @@
+README.md
+  s_0dcb3141a58f0a::t_110064f1495402 3
+  s_0dcb3141a58f0a::t_b90531801752e2 1-2
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "autter_version": "3.0.0",
+  "base_commit_sha": "e4f6a551819853f1b64e0809f7fb55e6886b963e",
+  "branch": "main",
+  "prompts": {
+    "s_0dcb3141a58f0a": {
+      "agent_id": {
+        "tool": "github-copilot-cli",
+        "id": "cb6b24e5-3b40-4027-b519-9d7ae561bc8f",
+        "model": "github-copilot-cli/unknown-model"
+      },
+      "human_author": "tushar-2320 <tk1444272@gmail.com>",
+      "total_additions": 4,
+      "total_deletions": 1,
+      "accepted_lines": 3,
+      "overriden_lines": 0
+    }
+  },
+  "sessions": {
+    "s_0dcb3141a58f0a": {
+      "agent_id": {
+        "tool": "github-copilot-cli",
+        "id": "cb6b24e5-3b40-4027-b519-9d7ae561bc8f",
+        "model": "github-copilot-cli/unknown-model"
+      },
+      "human_author": "tushar-2320 <tk1444272@gmail.com>",
+      "stats": {
+        "total_additions": 4,
+        "total_deletions": 1,
+        "accepted_lines": 3,
+        "overriden_lines": 0,
+        "files": {
+          "README.md": {
+            "total_additions": 4,
+            "total_deletions": 1,
+            "accepted_lines": 3,
+            "overriden_lines": 0
+          }
+        }
+      }
+    }
+  }
+}
